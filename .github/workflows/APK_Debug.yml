@@ -92,12 +92,6 @@ jobs:
         key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
         restore-keys: |
           ${{ runner.os }}-gradle-
-
-    - name: Rename D8 Libray to DX
-      run: |
-           cd $HOME/../usr/local/lib/android/sdk/build-tools/31.0.0/
-           mv d8 dx && mv lib/d8.jar lib/dx.jar
-
     - name: Build MCinaBox Debug (with gradle)
       run: |
           chmod +x gradlew
