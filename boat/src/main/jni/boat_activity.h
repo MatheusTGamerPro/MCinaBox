@@ -18,6 +18,6 @@ typedef struct {
     ANativeWindow *window;
 } Boat_t;
 
-Boat_t boat;
+Boat_t static boat;
 
 #endif
