@@ -1,27 +1,29 @@
-# MCinaBox - A Minecraft Java Edition Launcher on Android
-[Now in English] [切换为简体中文](./README_zh-cn.md)</br>
+<p align="center">
+    <img width="190" src="/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"></img>
+</p>
 
+<h1 align="center">MCinaBox Pro</h1>
 
-If you find problems when you run MCinaBox, you can check [Q&A](./Q&A.md) first.  
+- MCinaBox is a Launcher of Minecraft Java Edition on Android. The core functionality is powered by [CosineMath](Https://github.com/CosineMath) and [BoatApp](https://github.com/AOF-Dev/BoatApp) project.
 
-## Instruction
-- MCinaBox is a Launcher of Minecraft Java Edition on Android. The core functionality is powered by [CosineMath](Https://github.com/CosineMath)'s [BoatApp](https://github.com/AOF-Dev/BoatApp) project.
-## Discord
-[Join](https://discord.gg/55GECvHuNd)  
+<h1 align="center">Discord Server</h1>
 
+[](https://discord.gg/55GECvHuNd)  
 ![Discord Banner 2](https://discord.com/api/guilds/808182854718062623/widget.png?style=banner2)
-## Contents
-- [Background](#Background)
-- [Change Log](#Change-Log)
-- [Build](#Build)
-- [Release](#Release)
-- [Usage](#Usage)
-- [Preview](#Preview)
-- [Known Issues](#Known-Issues)
-- [Maintainers](#Maintainers)
-- [License](#License)
-- [Contribution](#Contribution)
-- [Related](#Related)
+
+<h1 align="center">Navigation</h1>
+
+- [Background](#background)
+- [Change Log](#changelog)
+- [Build](#build)
+- [Release](#release)
+- [Usage](#usage)
+- [Preview](#preview)
+- [Known Issues](#known-issues)
+- [Maintainers](#maintainers)
+- [License](#license)
+- [Contribution](#contribution)
+- [Related](#related)
 - [Q&A](./Q&A.md)
 
 ## Background
@@ -30,7 +32,7 @@ If you find problems when you run MCinaBox, you can check [Q&A](./Q&A.md) first.
 - `Backend` provides JRE runtime environment, Minecraft runtime environment, etc `core` functionality.
 - `Composition` MCinaBox consists of a front end and a back end.
 
-## Change Log
+## Changelog
 - [English](./CHANGELOG.md)
 - [Chinese](./CHANGELOG_zh-cn.md)
 
@@ -111,11 +113,11 @@ This project exists thanks to all the people who contribute.
 
 If you want to submit a pull request, there're some requirements:
 * IDE: Android Studio
-* TargetSDK: 22
+* TargetSDK: 30
 * MimniumSDK: 21
 * DO NOT modify `gradle` files.
 
-## Related
+## Libraries
 * [BoatApp (CosineMath,GPL 2.0)](https://github.com/AOF-Dev/BoatApp)
 * Gson (Google,Apache 2.0)
 * XZ for Java (Lasse Collin,Public Domain)
